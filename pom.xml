@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.test</groupId>
 	<artifactId>release-test</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>jar</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -15,7 +15,8 @@
 		<url>https://github.com/qsiebers/release-test</url>
 		<connection>scm:git:https://github.com/qsiebers/release-test.git</connection>
 		<developerConnection>scm:git:https://github.com/qsiebers/release-test.git</developerConnection>
-	</scm>
+	  <tag>release-test-1.0</tag>
+  </scm>
 	
 	<build>
 		<plugins>
